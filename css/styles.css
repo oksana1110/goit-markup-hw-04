@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #FFFFFF;;    
+    --primary-color: #FFFFFF;    
     --active-color:#2196F3;
     --active-color-two:#000000;
     --font-color:#757575;}
@@ -262,7 +262,7 @@ padding-bottom: 200px;
      letter-spacing: 0.03em;}
 
 .team-third-title {
-    padding-bottom: 30px;
+    padding-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;     
     text-align: center;
@@ -280,6 +280,7 @@ padding-bottom: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .team-soc-items{
@@ -295,7 +296,48 @@ padding-bottom: 200px;
     height: 100%;
     display: block;
     border-radius: 50%;
-    background-color:var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.team-soc-link:hover .team-soc-icons{
+   fill: var(--primary-color);
+}
+.team-soc-link:hover{
+background-color: var(--active-color);
+}
+/*----------Customers--------*/
+
+.customers-title{
+    font-size: 36px;
+    line height: 42px;
+    line height: 100%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.customers-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+.customers-lists{
+    width: 170px;
+    height: 92px;
+    border: 1px rgba(175, 177, 184, 1) solid;
+}
+
+.customers-lists:not(:last-child) {
+    margin-right: 30px;
+}
+.customers-link{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 /*----------Footer--------*/
 .footer{
@@ -342,6 +384,29 @@ padding-bottom: 200px;
     margin-bottom: 12px;
 }
 
+.footer-soc-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-soc-title{
+    font-style: bold;
+    font-size: 14px;   
+    line-height: 1.14;     
+    line-height: 100%;
+    align-items: left;
+    vertical-align: top; 
+    letter-spacing: 0.03em;
+    color: var(--primary-color);}
+    .footer-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-lists{
+        width: 44px;
+        height: 44px;
+    }
 
 
 /*----------Filter.portfolio--------*/
@@ -375,6 +440,7 @@ padding-bottom: 200px;
    }
 
 /*----------Main.portfolio--------*/
+
 .project-title {
     padding-bottom: 4px;
     font-weight: 700;
