@@ -349,8 +349,7 @@ padding-bottom: 200px;
 .customers-lists{
     width: 170px;
     height: 92px;
-    border: 1px rgba(175, 177, 184, 1) solid;
-}
+   }
 
 .customers-lists:not(:last-child) {
     margin-right: 30px;
@@ -360,12 +359,19 @@ padding-bottom: 200px;
     justify-content: center;
     align-items: center;
     height: 92px;
-}
-.customers-lists:hover{
+    border: 1px rgba(175, 177, 184, 1) solid;
+    border-radius: 4px;
     color: var(--active-color);
+    }
+.customers-link:hover{
+    border: 1px solid var(--active-color);
+}
+.customers-icons:hover{
+    fill: currentColor;
 }
 /*----------Footer--------*/
 .footer{
+    max-width: 1600px;
     background-color: #2F303A;
     padding: 60px 0px;}
 
@@ -409,11 +415,7 @@ padding-bottom: 200px;
     margin-bottom: 12px;
 }
 
-.footer-soc-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .footer-soc-title{
     font-style: bold;
     font-size: 14px;   
@@ -422,18 +424,44 @@ padding-bottom: 200px;
     align-items: left;
     vertical-align: top; 
     letter-spacing: 0.03em;
-    color: var(--primary-color);}
-    .footer-list{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer-lists{
-        width: 44px;
-        height: 44px;
-    }
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.footer-icons {
+    display: flex;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.footer-soc-icon{
+    margin-right: 70px;
+}
+
+
+.footer-lists {
+    width: 44px;
+    height: 44px;
+    }
+.footer-lists:not(:last-child){
+    margin-right: 10px;
+}
+.footer-link{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-link:hover{
+   background-color: var(--active-color);
+}
 /*----------Filter.portfolio--------*/
 .filter-button {    
     font-family: inherit;
@@ -508,4 +536,7 @@ padding-bottom: 200px;
     border-right: 1px rgba(0, 0, 0, 0.14) solid;
 
     }
-
+.project-list .project-link:hover{
+    box-shadow: 1px  rgba(238, 238, 238, 1) solid;
+    border-right:1px rgba(238, 238, 238, 1) solid ;
+}
