@@ -100,6 +100,8 @@ a.header-logo:focus{
 .header-list,
 .header-address {
             display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 .header-nav{
         display: flex;
@@ -117,6 +119,11 @@ header {
 
 .header-address-mail{
     margin-right: 40px;
+}
+
+.header-icons{
+        fill: currentColor;
+        margin-right: 10px;
 }
 /*----------Hero.index---------*/
 .hero { background: #2F303A;
@@ -206,11 +213,24 @@ padding-bottom: 200px;
      line-height: 1.71;         
      letter-spacing: 0.03em;    
       color:var(--font-color);}
+
+ .icon{
+    width: 270px;
+    height: 120px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+}
+
+
 /*----------what we do.index--------*/
 
 .work-list{
-    display: flex;
-    
+    display: flex;    
 }
 .work-lists{
     margin-right: 30px;
@@ -301,13 +321,14 @@ padding-bottom: 200px;
     align-items: center;
     background-color: var(--primary-color);
 }
+.team-soc-link:hover {
+    background-color: var(--active-color);
+    color: #FFFFFF;
+}
+.team-soc-icons:hover{
+   fill: currentColor;
+}
 
-.team-soc-link:hover .team-soc-icons{
-   fill: var(--primary-color);
-}
-.team-soc-link:hover{
-background-color: var(--active-color);
-}
 /*----------Customers--------*/
 
 .customers-title{
@@ -337,7 +358,11 @@ background-color: var(--active-color);
 .customers-link{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    height: 92px;
+}
+.customers-lists:hover{
+    color: var(--active-color);
 }
 /*----------Footer--------*/
 .footer{
