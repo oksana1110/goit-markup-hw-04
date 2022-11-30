@@ -71,13 +71,17 @@ a.header-logo:focus{
 .header-list .link.current{
     color: var(--active-color);}
 
-.header-link{
-    font-family: inherit;
+.header-lists{
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     line-height: 100%;
     letter-spacing: 0.02em;;
-    color: #212121}
+    }
+.header-link{
+   color: #212121
+}
 
     .header-lists{margin-right: 50px;
         padding: 10px 0px;}
@@ -145,7 +149,7 @@ padding-bottom: 200px;
 
 .btn {
     display: inline-block;  
-    padding: 10px; 24px;
+    padding: 10px 24px;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -413,10 +417,10 @@ padding-bottom: 200px;
      color: rgba(255, 255, 255, 0.6);}
 
 .address-link:hover,
-.address-link:focus{color:var(--active-color-two);}
+.address-link:focus{color: var(--active-color);}
 
 .address-item:hover,
-.address-item:focus{color: var(--active-color-two);}
+.address-item:focus{color: var(--active-color);}
 
 .auth-addr{
     margin-bottom: 12px;
