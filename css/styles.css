@@ -325,6 +325,9 @@ padding-bottom: 200px;
     background-color: var(--active-color);
     color: #FFFFFF;
 }
+.team-soc-icons{
+    fill: #afb1b8;
+}
 .team-soc-icons:hover{
    fill: currentColor;
 }
@@ -366,9 +369,13 @@ padding-bottom: 200px;
 .customers-link:hover{
     border: 1px solid var(--active-color);
 }
+.customers-icons{
+    fill: #afb1b8;
+}
 .customers-icons:hover{
     fill: currentColor;
 }
+
 /*----------Footer--------*/
 .footer{
     max-width: 1600px;
