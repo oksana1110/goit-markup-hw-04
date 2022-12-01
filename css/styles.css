@@ -325,13 +325,15 @@ padding-bottom: 200px;
     align-items: center;
     background-color: var(--primary-color);
 }
-.team-soc-link:hover {
-    background-color: var(--active-color);
-    color: #FFFFFF;
-}
-.team-soc-icons{
+
+.team-soc-icons {
     fill: #afb1b8;
 }
+.team-soc-link:hover {
+    background-color: var(--active-color);
+    color: var(--primary-color);
+}
+
 .team-soc-icons:hover{
    fill: currentColor;
 }
@@ -370,14 +372,16 @@ padding-bottom: 200px;
     border-radius: 4px;
     color: var(--active-color);
     }
-.customers-link:hover{
-    border: 1px solid var(--active-color);
-}
-.customers-icons{
+.customers-icons {
     fill: #afb1b8;
 }
-.customers-icons:hover{
-    fill: currentColor;
+
+.customers-link:hover{
+    border: 1px solid var(--active-color);
+    }
+
+.customers-lists:hover .customers-icons{
+    fill: var(--active-color);
 }
 
 /*----------Footer--------*/
