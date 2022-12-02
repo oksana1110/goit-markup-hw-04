@@ -334,7 +334,7 @@ padding-bottom: 200px;
     color: var(--primary-color);
 }
 
-.team-soc-icons:hover{
+.team-soc-link:hover .team-soc-icons{
    fill: currentColor;
 }
 
